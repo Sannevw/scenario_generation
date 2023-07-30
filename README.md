@@ -21,7 +21,7 @@ The experiments use [Python Poetry](https://python-poetry.org) for packages and 
 
 To clone the repository and install the dependencies:
 ```shell
-git clone 
+git clone https://github.com/sannevw/scenario_generation.git
 poetry install
 ```
 

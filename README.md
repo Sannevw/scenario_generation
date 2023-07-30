@@ -8,7 +8,7 @@ Rearranging objects is an essential skill for robots. To quickly teach robots ne
 
 
 ## Video
-The (Supplementary Video)[IROS-SupplementaryVideo.mp4] shows generated scenarios for each of the three experiments.
+The [Supplementary Video](IROS-SupplementaryVideo.mp4) shows generated scenarios for each of the three experiments.
 
 ## Code
 The code contains three interactive Jupyter notebooks in which users can choose desired satisfaction values and generate/render scenarios. 

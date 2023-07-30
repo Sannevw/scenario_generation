@@ -1,0 +1,40 @@
+model_params:
+  N_c: 1
+  N_d:
+  - 256
+  - 128
+  - 128
+  - 64
+  - 64
+  - 6
+  N_e:
+  - 6
+  - 64
+  - 64
+  - 128
+  - 128
+  - 256
+  - 128
+  N_z: 128
+  N_a:
+    - 128
+    - 128
+    - 64
+    - 64
+    - 32
+    - 32
+    - 1
+  SEED: 128764
+  conditional: True
+  name: ae
+settings:
+  N_samples: 20000
+  N_objects: 2
+  STEP: 1000
+train_params:
+  N_batch: 32
+  epochs: 50
+  lr: 0.001
+  beta: 0.0
+  print_every: 100
+  save_path: models/cvae_nrObjects=10_nrSamples=20000
